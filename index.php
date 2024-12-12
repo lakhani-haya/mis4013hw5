@@ -123,18 +123,18 @@
 <body>
 
     <div class="container mt-5">
-        <h1>to-do</h1>
+        <h1>to-do list</h1>
 
 
         <div class="mb-3">
-            <input type="text" id="taskName" class="form-control" placeholder="Enter your task">
-            <button class="btn-custom btn mt-3" onclick="addTask()">Add Task</button>
+            <input type="text" id="taskName" class="form-control" placeholder="Enter your task:">
+            <button class="btn-custom btn mt-3" onclick="addTask()">Add</button>
         </div>
 
         <div class="mb-3">
             <button class="btn-custom btn" onclick="filterTasks('all')">All Tasks</button>
             <button class="btn-custom btn" onclick="filterTasks('completed')">Completed</button>
-            <button class="btn-custom btn" onclick="filterTasks('pending')">Pending</button>
+            <button class="btn-custom btn" onclick="filterTasks('pending')">Not Completed</button>
         </div>
 
 
